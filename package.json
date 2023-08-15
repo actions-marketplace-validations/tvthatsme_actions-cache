@@ -1,5 +1,5 @@
 {
-  "name": "actions-cache",
+  "name": "actions-cache-in-s3",
   "main": "lib/restoreCache.js",
   "license": "MIT",
   "scripts": {

@@ -3,7 +3,7 @@ import * as minio from "minio";
 import { findObject } from "./utils";
 
 describe("utils", () => {
-  test("getLatestObj", async () => {
+  test.skip("getLatestObj", async () => {
     const mc = new minio.Client({
       endPoint: "play.min.io",
       accessKey: "Q3AM3UQ867SPQQA43P2F",

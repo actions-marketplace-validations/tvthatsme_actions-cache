@@ -1,8 +1,10 @@
 # actions-s3-cache
 
-This action enables caching dependencies to s3 compatible storage, e.g. minio, AWS S3
+> A basic fork of [another project](https://github.com/tespkg/actions-cache). I just needed to adjust things quicker than the original author was able to keep up with.
 
-It also has github [actions/cache@v2](https://github.com/actions/cache) fallback if s3 save & restore fails
+This action enables caching dependencies to s3 compatible storage, e.g. minio, AWS S3.
+
+It also has a github [actions/cache@v2](https://github.com/actions/cache) fallback if s3 save & restore fails.
 
 ## Usage
 
@@ -48,12 +50,12 @@ as prefix in object names and use the latest one
 
 When using this with Amazon S3, the following permissions are necessary:
 
- - `s3:PutObject`
- - `s3:GetObject`
- - `s3:ListBucket`
- - `s3:GetBucketLocation`
- - `s3:ListBucketMultipartUploads`
- - `s3:ListMultipartUploadParts`
+- `s3:PutObject`
+- `s3:GetObject`
+- `s3:ListBucket`
+- `s3:GetBucketLocation`
+- `s3:ListBucketMultipartUploads`
+- `s3:ListMultipartUploadParts`
 
 # Note on release
 
