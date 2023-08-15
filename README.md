@@ -22,7 +22,7 @@ jobs:
     runs-on: [ubuntu-latest]
 
     steps:
-      - uses: tespkg/actions-cache@v1
+      - uses: tvthatsme/actions-cache-in-s3@v1
         with:
           endpoint: play.min.io # optional, default s3.amazonaws.com
           insecure: false # optional, use http instead of https. default false
